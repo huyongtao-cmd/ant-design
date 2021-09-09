@@ -26,7 +26,6 @@ const Demo = () => {
   };
   return (
     <TreeSelect
-      showSearch
       style={{ width: '100%' }}
       value={value}
       dropdownStyle={{ maxHeight: 400, overflow: 'auto' }}
